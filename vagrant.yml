@@ -1,0 +1,10 @@
+---
+- name: configure vagrant
+  hosts: all
+  become: true
+  roles:
+    - role: vagrant-docker
+
+  tasks:
+    - name: be an adult
+      selinux: state=enforcing policy=targeted

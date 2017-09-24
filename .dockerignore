@@ -1,0 +1,8 @@
+.galaxy-roles
+.gitignore
+.vagrant
+
+ansible.cfg
+requirements.yml
+vagrant.yml
+Vagrantfile
